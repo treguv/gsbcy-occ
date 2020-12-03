@@ -1,3 +1,11 @@
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  color: white !important;
+  text-decoration: none !important;
+  outline: none !important;
+}
 .header-text {
   text-align: center;
   text-shadow: 2px 2px black;
@@ -31,6 +39,43 @@
   background-repeat: no-repeat;
   border-bottom: 1px solid black;
 }
+/* Footer */
+#footer {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+#footer-link-list {
+  text-align: right;
+  color: white;
+}
+/* Impact Button */
+.see-impact-button {
+  box-shadow: inset 0px 1px 11px -1px #9acc85;
+  background: linear-gradient(to bottom, #65c737 5%, #68a54b 100%);
+  background-color: #65c737;
+  border-radius: 8px;
+  border: 1px solid #3b6e22;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  /* font-family: Arial; */
+  font-size: 13px;
+  font-weight: bold;
+
+  padding: 32px 76px;
+  text-decoration: none;
+}
+.see-impact-button :hover {
+  background: linear-gradient(to bottom, #68a54b 5%, #65c737 100%);
+  background-color: #68a54b;
+}
+.see-impact-button :active {
+  position: relative;
+  top: 1px;
+}
+
 .info-text {
   text-align: center;
   text-shadow: 2px 2px black;
@@ -52,4 +97,15 @@
   padding: 30px;
   padding-top: 200px;
   padding-bottom: 200px;
+}
+
+/* Fade in content */
+section {
+  opacity: 0;
+  transform: translate(0, 20px);
+  transition: opacity 2s;
+}
+section.visible {
+  opacity: 1;
+  transform: translate(0, 0);
 }
