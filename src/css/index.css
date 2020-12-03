@@ -1,0 +1,54 @@
+.header-text {
+  text-align: center;
+  text-shadow: 2px 2px black;
+  color: white;
+}
+.header-sub-text {
+  text-align: center;
+  text-shadow: 2px 2px black;
+  color: white;
+  padding-top: 20px;
+}
+#title-section {
+  background-image: url("../img/main-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* border-bottom: 3px solid white; */
+}
+
+/* How much we raised css */
+#raised-section {
+  background-image: url("../img/rasied-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid black;
+}
+/* How much we packed css */
+#packed-section {
+  background-image: url("../img/packed-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid black;
+}
+.info-text {
+  text-align: center;
+  text-shadow: 2px 2px black;
+  color: white;
+}
+
+.info-subtext {
+  text-align: center;
+  text-shadow: 2px 2px black;
+  color: white;
+  padding-top: 20px;
+}
+.big-text {
+  font-size: 100px;
+  text-shadow: black 3px 3px;
+}
+
+.general-section {
+  padding: 30px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
