@@ -109,3 +109,11 @@ section.visible {
   opacity: 1;
   transform: translate(0, 0);
 }
+
+/* general purpose css */
+.inverted-color {
+  text-align: center;
+  text-shadow: 2px 2px gray;
+  color: black;
+  font-size: 50px;
+}

@@ -1,0 +1,13 @@
+#tracking-card-container {
+  background-image: url("../img/packed-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* Cards  */
+.card-background {
+  opacity: 0.4;
+}
+
+.card-content {
+  opacity: 1;
+}
