@@ -1,0 +1,23 @@
+{
+  "name": "gsbcy-occ",
+  "version": "1.0.0",
+  "description": "GSBCY-OCC",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treguv/gsbcy-occ.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/treguv/gsbcy-occ/issues"
+  },
+  "homepage": "https://github.com/treguv/gsbcy-occ#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
