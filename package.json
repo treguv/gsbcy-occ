@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/treguv/gsbcy-occ#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "heroku": "^7.47.5"
+    "heroku": "^7.47.5",
+    "mysql2": "^2.2.5"
   }
 }

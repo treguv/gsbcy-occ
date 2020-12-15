@@ -23,6 +23,17 @@ function generateCard(trackingId) {
   $("#tracking-card-row").append(trackingCardCol);
 }
 
-for (let i = 0; i < 25; i++) {
-  generateCard(i);
+fetch("/tracking", {
+  method: "GET",
+  headers: {
+    "Content-Type": "application/json",
+  },
+}).then((res) => {
+  console.log(res);
+});
+
+function cardCreation(data) {
+  console.log(data);
+  var newData = data.body;
+  console.log(newData);
 }
