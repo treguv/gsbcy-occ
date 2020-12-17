@@ -22,15 +22,25 @@ function generateCard(trackingId) {
 
   $("#tracking-card-row").append(trackingCardCol);
 }
-
+//get the code data from db
 fetch("/tracking", {
   method: "GET",
   headers: {
     "Content-Type": "application/json",
   },
-}).then((res) => {
-  console.log(res);
-});
+})
+  .then((res) => {
+    console.log(res);
+    return res.json();
+  })
+  .then((resParsed) => {
+    //console.log(resParsed[10]);
+    // console.log(JSON.parse(resParsed));
+    //probably a bad way to do it
+    for (let i = 0; i < resParsed.length; i++) {
+      generateCard(resParsed[i].code);
+    }
+  });
 
 function cardCreation(data) {
   console.log(data);

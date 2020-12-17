@@ -24,7 +24,7 @@ app.get("/tracking", (req, res) => {
       console.log(err);
       return;
     }
-    console.log(results);
+    //console.log(results);
     res.json(results);
   });
 });
