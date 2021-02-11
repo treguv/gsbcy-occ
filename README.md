@@ -10,7 +10,7 @@ The purpose of this application is to provide a platform that allows you to easi
 
 
 ## Website
-https://treguv.github.io/gsbcy-occ/.
+https://gsbcyocc.herokuapp.com
 ## Made By
 Vladislav Tregubov
 
